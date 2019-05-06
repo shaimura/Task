@@ -55,3 +55,17 @@ main{
 	color: #ffffff;
 	padding: 3px;
 }
+
+@media screen and (max-width: 768px){
+	main{
+		width: 330px;
+	}
+	.box{
+		width: 90%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	.box:last-child{
+		margin-bottom: 0;
+	}
+}
